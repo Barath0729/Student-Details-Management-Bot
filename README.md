@@ -1,6 +1,11 @@
 ### Serverless Student Management System
 
 
+![Retrospectives (1)](https://github.com/Barath0729/Student-Details-Management-Bot/assets/126565359/c6eae936-d300-456a-a732-94f47050f2f5)
+
+
+
+
 This project is a serverless application that allows managing student details using AWS Lambda, DynamoDB, and Amazon Lex. Users can interact with the application via a chatbot interface provided by Amazon Lex.
 
 ### Features
@@ -73,12 +78,16 @@ json:-
         {
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::841120952735:role/service-role/DataBase_Student-role-ji2lcecr"
+                "AWS": "Your-Role-as-principle"
             },
             "Action": "dynamodb:*",
-            "Resource": "arn:aws:dynamodb:ap-southeast-2:841120952735:table/ManageMent_Student"
+            "Resource": "Your-Table-as-resource"
         }
     ]
 }
+Modify the json code:
+   a)AWS
+   b)Resourse
+   
 ### 8. Conclusion
 This project demonstrates how to build a serverless student management system using AWS Lambda, DynamoDB, and Amazon Lex. It showcases the integration of a conversational interface with a backend service to provide a seamless user experience.
