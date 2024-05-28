@@ -1,17 +1,17 @@
-Serverless Student Management System
+###Serverless Student Management System
 
 
 
 
 This project is a serverless application that allows managing student details using AWS Lambda, DynamoDB, and Amazon Lex. Users can interact with the application via a chatbot interface provided by Amazon Lex.
 
-Features
+###Features
 CRUD Operations: Create, Read, Update, Delete student details.
 Amazon Lex Integration: Natural language processing to handle user inputs.
 AWS Lambda: Serverless functions to process requests.
 DynamoDB: NoSQL database for storing student details.
 
-Prerequisites
+### Prerequisites
 Before you start, make sure you have the following:
 
 An AWS account
@@ -21,18 +21,18 @@ Python and boto3 library installed
 AWS SDK for Python (boto3)
 IAM role with permissions to access DynamoDB, Lambda, and Lex
 Step-by-Step Procedure
-1. Set Up DynamoDB Table
+### 1. Set Up DynamoDB Table
 Go to the AWS Management Console.
 Navigate to DynamoDB.
 Create a new table named ManageMent_Student with registrationNumber as the primary key.
-2. Create IAM Role
+### 2. Create IAM Role
 Go to the IAM service in the AWS Management Console.
 Create a new role for Lambda.
 Attach the following policies:
 AmazonDynamoDBFullAccess
 AWSLambdaBasicExecutionRole
 AmazonLexFullAccess
-3. Develop Lambda Functions
+### 3. Develop Lambda Functions
 Create a file named lambda_function.py and paste the code given
 
 ### 4. Deploy Lambda Function
@@ -82,5 +82,5 @@ json:-
         }
     ]
 }
-8. Conclusion
+### 8. Conclusion
 This project demonstrates how to build a serverless student management system using AWS Lambda, DynamoDB, and Amazon Lex. It showcases the integration of a conversational interface with a backend service to provide a seamless user experience.
