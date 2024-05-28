@@ -1,11 +1,9 @@
-###Serverless Student Management System
-
-
+### Serverless Student Management System
 
 
 This project is a serverless application that allows managing student details using AWS Lambda, DynamoDB, and Amazon Lex. Users can interact with the application via a chatbot interface provided by Amazon Lex.
 
-###Features
+### Features
 CRUD Operations: Create, Read, Update, Delete student details.
 Amazon Lex Integration: Natural language processing to handle user inputs.
 AWS Lambda: Serverless functions to process requests.
