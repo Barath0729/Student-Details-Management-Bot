@@ -1,8 +1,7 @@
 ### Serverless Student Management System
 
 
-![Retrospectives (1)](https://github.com/Barath0729/Student-Details-Management-Bot/assets/126565359/c6eae936-d300-456a-a732-94f47050f2f5)
-
+![Retrospectives (2)](https://github.com/Barath0729/Student-Details-Management-Bot/assets/126565359/e0dc39f7-42f8-4729-83c1-0c206b7779a7)
 
 
 
